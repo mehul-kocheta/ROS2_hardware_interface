@@ -1,0 +1,4 @@
+[console_scripts]
+encoder_odom = encoder_reader.encoder_odom:main
+encoder_serial_node = encoder_reader.encoder_serial_node:main
+

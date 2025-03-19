@@ -1,0 +1,29 @@
+[2.755s] Invoking command in '/home/mehul/motor_test/src/encoder_reader': PYTHONPATH=/home/mehul/motor_test/build/encoder_reader/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mehul/motor_test/install/encoder_reader/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/encoder_reader build --build-base /home/mehul/motor_test/build/encoder_reader/build install --record /home/mehul/motor_test/build/encoder_reader/install.log --install-scripts $base/lib/encoder_reader --single-version-externally-managed install_data
+[3.621s] running egg_info
+[3.624s] writing ../../build/encoder_reader/encoder_reader.egg-info/PKG-INFO
+[3.625s] writing dependency_links to ../../build/encoder_reader/encoder_reader.egg-info/dependency_links.txt
+[3.626s] writing entry points to ../../build/encoder_reader/encoder_reader.egg-info/entry_points.txt
+[3.627s] writing requirements to ../../build/encoder_reader/encoder_reader.egg-info/requires.txt
+[3.628s] writing top-level names to ../../build/encoder_reader/encoder_reader.egg-info/top_level.txt
+[3.763s] reading manifest file '../../build/encoder_reader/encoder_reader.egg-info/SOURCES.txt'
+[3.767s] writing manifest file '../../build/encoder_reader/encoder_reader.egg-info/SOURCES.txt'
+[3.768s] running build
+[3.768s] running build_py
+[3.770s] copying encoder_reader/encoder_serial_node.py -> /home/mehul/motor_test/build/encoder_reader/build/lib/encoder_reader
+[3.772s] copying encoder_reader/encoder_odom.py -> /home/mehul/motor_test/build/encoder_reader/build/lib/encoder_reader
+[3.773s] running install
+[3.776s] running install_lib
+[3.781s] copying /home/mehul/motor_test/build/encoder_reader/build/lib/encoder_reader/encoder_odom.py -> /home/mehul/motor_test/install/encoder_reader/lib/python3.8/site-packages/encoder_reader
+[3.782s] copying /home/mehul/motor_test/build/encoder_reader/build/lib/encoder_reader/encoder_serial_node.py -> /home/mehul/motor_test/install/encoder_reader/lib/python3.8/site-packages/encoder_reader
+[3.785s] byte-compiling /home/mehul/motor_test/install/encoder_reader/lib/python3.8/site-packages/encoder_reader/encoder_odom.py to encoder_odom.cpython-38.pyc
+[3.792s] byte-compiling /home/mehul/motor_test/install/encoder_reader/lib/python3.8/site-packages/encoder_reader/encoder_serial_node.py to encoder_serial_node.cpython-38.pyc
+[3.795s] running install_data
+[3.797s] copying package.xml -> /home/mehul/motor_test/install/encoder_reader/share/encoder_reader
+[3.798s] running install_egg_info
+[3.804s] removing '/home/mehul/motor_test/install/encoder_reader/lib/python3.8/site-packages/encoder_reader-0.0.0-py3.8.egg-info' (and everything under it)
+[3.806s] Copying ../../build/encoder_reader/encoder_reader.egg-info to /home/mehul/motor_test/install/encoder_reader/lib/python3.8/site-packages/encoder_reader-0.0.0-py3.8.egg-info
+[3.811s] running install_scripts
+[3.874s] Installing encoder_odom script to /home/mehul/motor_test/install/encoder_reader/lib/encoder_reader
+[3.875s] Installing encoder_serial_node script to /home/mehul/motor_test/install/encoder_reader/lib/encoder_reader
+[3.877s] writing list of installed files to '/home/mehul/motor_test/build/encoder_reader/install.log'
+[3.975s] Invoked command in '/home/mehul/motor_test/src/encoder_reader' returned '0': PYTHONPATH=/home/mehul/motor_test/build/encoder_reader/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mehul/motor_test/install/encoder_reader/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/encoder_reader build --build-base /home/mehul/motor_test/build/encoder_reader/build install --record /home/mehul/motor_test/build/encoder_reader/install.log --install-scripts $base/lib/encoder_reader --single-version-externally-managed install_data

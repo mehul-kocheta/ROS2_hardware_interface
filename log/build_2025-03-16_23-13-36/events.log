@@ -1,0 +1,67 @@
+[0.000000] (-) TimerEvent: {}
+[0.001917] (encoder_reader) JobQueued: {'identifier': 'encoder_reader', 'dependencies': OrderedDict()}
+[0.002568] (encoder_reader) JobStarted: {'identifier': 'encoder_reader'}
+[0.099489] (-) TimerEvent: {}
+[0.200407] (-) TimerEvent: {}
+[0.301163] (-) TimerEvent: {}
+[0.401901] (-) TimerEvent: {}
+[0.502574] (-) TimerEvent: {}
+[0.603247] (-) TimerEvent: {}
+[0.703966] (-) TimerEvent: {}
+[0.804814] (-) TimerEvent: {}
+[0.905978] (-) TimerEvent: {}
+[1.007467] (-) TimerEvent: {}
+[1.108512] (-) TimerEvent: {}
+[1.209302] (-) TimerEvent: {}
+[1.310005] (-) TimerEvent: {}
+[1.410689] (-) TimerEvent: {}
+[1.511357] (-) TimerEvent: {}
+[1.611989] (-) TimerEvent: {}
+[1.712670] (-) TimerEvent: {}
+[1.813332] (-) TimerEvent: {}
+[1.914042] (-) TimerEvent: {}
+[2.014750] (-) TimerEvent: {}
+[2.115516] (-) TimerEvent: {}
+[2.216219] (-) TimerEvent: {}
+[2.316883] (-) TimerEvent: {}
+[2.417667] (-) TimerEvent: {}
+[2.518935] (-) TimerEvent: {}
+[2.551363] (encoder_reader) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/encoder_reader', 'build', '--build-base', '/home/mehul/motor_test/build/encoder_reader/build', 'install', '--record', '/home/mehul/motor_test/build/encoder_reader/install.log', '--install-scripts', '$base/lib/encoder_reader', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/mehul/motor_test/src/encoder_reader', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mehul', 'SSH_AGENT_PID': '1512', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/mehul', 'OLDPWD': '/home/mehul/motor_test/src/encoder_reader', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'MANAGERPID': '1421', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3504', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/mehul/motor_test/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'mehul', 'WINDOWID': '29360143', 'JOURNAL_STREAM': '9:37058', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XTERM_SHELL': '/bin/bash', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mehul', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/mehul/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1566,unix/ubuntu:/tmp/.ICE-unix/1566', 'INVOCATION_ID': 'ca2298469818448aa4c28e70549fdb4f', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/mehul/motor_test/install/encoder_reader:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mehul/motor_test/build/encoder_reader', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XTERM_LOCALE': 'en_US.UTF-8', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XTERM_VERSION': 'XTerm(353)', 'PYTHONPATH': '/home/mehul/motor_test/build/encoder_reader/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mehul/motor_test/install/encoder_reader/lib/python3.8/site-packages:/home/mehul/motor_test/install/encoder_reader/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1'}, 'shell': False}
+[2.619153] (-) TimerEvent: {}
+[2.720115] (-) TimerEvent: {}
+[2.821128] (-) TimerEvent: {}
+[2.921761] (-) TimerEvent: {}
+[3.022439] (-) TimerEvent: {}
+[3.123101] (-) TimerEvent: {}
+[3.223796] (-) TimerEvent: {}
+[3.324478] (-) TimerEvent: {}
+[3.425241] (-) TimerEvent: {}
+[3.442632] (encoder_reader) StdoutLine: {'line': b'running egg_info\n'}
+[3.445855] (encoder_reader) StdoutLine: {'line': b'writing ../../build/encoder_reader/encoder_reader.egg-info/PKG-INFO\n'}
+[3.446978] (encoder_reader) StdoutLine: {'line': b'writing dependency_links to ../../build/encoder_reader/encoder_reader.egg-info/dependency_links.txt\n'}
+[3.448027] (encoder_reader) StdoutLine: {'line': b'writing entry points to ../../build/encoder_reader/encoder_reader.egg-info/entry_points.txt\n'}
+[3.448751] (encoder_reader) StdoutLine: {'line': b'writing requirements to ../../build/encoder_reader/encoder_reader.egg-info/requires.txt\n'}
+[3.449381] (encoder_reader) StdoutLine: {'line': b'writing top-level names to ../../build/encoder_reader/encoder_reader.egg-info/top_level.txt\n'}
+[3.525410] (-) TimerEvent: {}
+[3.575030] (encoder_reader) StdoutLine: {'line': b"reading manifest file '../../build/encoder_reader/encoder_reader.egg-info/SOURCES.txt'\n"}
+[3.579069] (encoder_reader) StdoutLine: {'line': b"writing manifest file '../../build/encoder_reader/encoder_reader.egg-info/SOURCES.txt'\n"}
+[3.579919] (encoder_reader) StdoutLine: {'line': b'running build\n'}
+[3.580752] (encoder_reader) StdoutLine: {'line': b'running build_py\n'}
+[3.581273] (encoder_reader) StdoutLine: {'line': b'copying encoder_reader/encoder_odom.py -> /home/mehul/motor_test/build/encoder_reader/build/lib/encoder_reader\n'}
+[3.582867] (encoder_reader) StdoutLine: {'line': b'running install\n'}
+[3.585808] (encoder_reader) StdoutLine: {'line': b'running install_lib\n'}
+[3.589606] (encoder_reader) StdoutLine: {'line': b'copying /home/mehul/motor_test/build/encoder_reader/build/lib/encoder_reader/encoder_odom.py -> /home/mehul/motor_test/install/encoder_reader/lib/python3.8/site-packages/encoder_reader\n'}
+[3.592380] (encoder_reader) StdoutLine: {'line': b'byte-compiling /home/mehul/motor_test/install/encoder_reader/lib/python3.8/site-packages/encoder_reader/encoder_odom.py to encoder_odom.cpython-38.pyc\n'}
+[3.599201] (encoder_reader) StdoutLine: {'line': b'running install_data\n'}
+[3.600003] (encoder_reader) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.605895] (encoder_reader) StdoutLine: {'line': b"removing '/home/mehul/motor_test/install/encoder_reader/lib/python3.8/site-packages/encoder_reader-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[3.607389] (encoder_reader) StdoutLine: {'line': b'Copying ../../build/encoder_reader/encoder_reader.egg-info to /home/mehul/motor_test/install/encoder_reader/lib/python3.8/site-packages/encoder_reader-0.0.0-py3.8.egg-info\n'}
+[3.612062] (encoder_reader) StdoutLine: {'line': b'running install_scripts\n'}
+[3.625649] (-) TimerEvent: {}
+[3.675037] (encoder_reader) StdoutLine: {'line': b'Installing encoder_odom script to /home/mehul/motor_test/install/encoder_reader/lib/encoder_reader\n'}
+[3.675879] (encoder_reader) StdoutLine: {'line': b'Installing encoder_serial_node script to /home/mehul/motor_test/install/encoder_reader/lib/encoder_reader\n'}
+[3.677762] (encoder_reader) StdoutLine: {'line': b"writing list of installed files to '/home/mehul/motor_test/build/encoder_reader/install.log'\n"}
+[3.725947] (-) TimerEvent: {}
+[3.772564] (encoder_reader) CommandEnded: {'returncode': 0}
+[3.818910] (encoder_reader) JobEnded: {'identifier': 'encoder_reader', 'rc': 0}
+[3.823374] (-) EventReactorShutdown: {}
