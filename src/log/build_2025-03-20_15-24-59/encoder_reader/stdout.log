@@ -1,0 +1,25 @@
+running egg_info
+writing ../build/encoder_reader/encoder_reader.egg-info/PKG-INFO
+writing dependency_links to ../build/encoder_reader/encoder_reader.egg-info/dependency_links.txt
+writing entry points to ../build/encoder_reader/encoder_reader.egg-info/entry_points.txt
+writing requirements to ../build/encoder_reader/encoder_reader.egg-info/requires.txt
+writing top-level names to ../build/encoder_reader/encoder_reader.egg-info/top_level.txt
+reading manifest file '../build/encoder_reader/encoder_reader.egg-info/SOURCES.txt'
+writing manifest file '../build/encoder_reader/encoder_reader.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying package.xml -> /home/mehul/motor_test/src/install/encoder_reader/share/encoder_reader
+copying launch/online_async.launch.py -> /home/mehul/motor_test/src/install/encoder_reader/share/encoder_reader/launch
+creating /home/mehul/motor_test/src/install/encoder_reader/share/encoder_reader/config
+copying config/mapper_params_online_async.yaml -> /home/mehul/motor_test/src/install/encoder_reader/share/encoder_reader/config
+running install_egg_info
+removing '/home/mehul/motor_test/src/install/encoder_reader/lib/python3.8/site-packages/encoder_reader-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../build/encoder_reader/encoder_reader.egg-info to /home/mehul/motor_test/src/install/encoder_reader/lib/python3.8/site-packages/encoder_reader-0.0.0-py3.8.egg-info
+running install_scripts
+Installing encoder_odom script to /home/mehul/motor_test/src/install/encoder_reader/lib/encoder_reader
+Installing encoder_serial_node script to /home/mehul/motor_test/src/install/encoder_reader/lib/encoder_reader
+Installing motor_interface script to /home/mehul/motor_test/src/install/encoder_reader/lib/encoder_reader
+writing list of installed files to '/home/mehul/motor_test/src/build/encoder_reader/install.log'

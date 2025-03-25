@@ -10,6 +10,8 @@
 /home/mehul/motor_test/src/install/encoder_reader/share/encoder_reader/package.xml
 /home/mehul/motor_test/src/install/encoder_reader/share/encoder_reader/msg/EncoderTicks.msg
 /home/mehul/motor_test/src/install/encoder_reader/share/encoder_reader/launch/encoder_system.launch.py
+/home/mehul/motor_test/src/install/encoder_reader/share/encoder_reader/launch/online_async.launch.py
+/home/mehul/motor_test/src/install/encoder_reader/share/encoder_reader/config/mapper_params_online_async.yaml
 /home/mehul/motor_test/src/install/encoder_reader/lib/python3.8/site-packages/encoder_reader-0.0.0-py3.8.egg-info/zip-safe
 /home/mehul/motor_test/src/install/encoder_reader/lib/python3.8/site-packages/encoder_reader-0.0.0-py3.8.egg-info/PKG-INFO
 /home/mehul/motor_test/src/install/encoder_reader/lib/python3.8/site-packages/encoder_reader-0.0.0-py3.8.egg-info/dependency_links.txt

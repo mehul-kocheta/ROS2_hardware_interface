@@ -8,11 +8,13 @@ setup.py
 ../build/encoder_reader/encoder_reader.egg-info/requires.txt
 ../build/encoder_reader/encoder_reader.egg-info/top_level.txt
 ../build/encoder_reader/encoder_reader.egg-info/zip-safe
+config/mapper_params_online_async.yaml
 encoder_reader/__init__.py
 encoder_reader/encoder_odom.py
 encoder_reader/encoder_serial_node.py
 encoder_reader/motor_interface.py
 launch/encoder_system.launch.py
+launch/online_async.launch.py
 msg/EncoderTicks.msg
 resource/encoder_reader
 test/test_copyright.py

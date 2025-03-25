@@ -1,0 +1,69 @@
+[0.000000] (-) TimerEvent: {}
+[0.000907] (encoder_reader) JobQueued: {'identifier': 'encoder_reader', 'dependencies': OrderedDict()}
+[0.001797] (encoder_reader) JobStarted: {'identifier': 'encoder_reader'}
+[0.099228] (-) TimerEvent: {}
+[0.200179] (-) TimerEvent: {}
+[0.300859] (-) TimerEvent: {}
+[0.401549] (-) TimerEvent: {}
+[0.503313] (-) TimerEvent: {}
+[0.603983] (-) TimerEvent: {}
+[0.704644] (-) TimerEvent: {}
+[0.805790] (-) TimerEvent: {}
+[0.906545] (-) TimerEvent: {}
+[1.007436] (-) TimerEvent: {}
+[1.108981] (-) TimerEvent: {}
+[1.210754] (-) TimerEvent: {}
+[1.311461] (-) TimerEvent: {}
+[1.412178] (-) TimerEvent: {}
+[1.512999] (-) TimerEvent: {}
+[1.613648] (-) TimerEvent: {}
+[1.714281] (-) TimerEvent: {}
+[1.814910] (-) TimerEvent: {}
+[1.915529] (-) TimerEvent: {}
+[2.016198] (-) TimerEvent: {}
+[2.116841] (-) TimerEvent: {}
+[2.217586] (-) TimerEvent: {}
+[2.318264] (-) TimerEvent: {}
+[2.418937] (-) TimerEvent: {}
+[2.519733] (-) TimerEvent: {}
+[2.611184] (encoder_reader) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/encoder_reader', 'build', '--build-base', '/home/mehul/motor_test/src/build/encoder_reader/build', 'install', '--record', '/home/mehul/motor_test/src/build/encoder_reader/install.log', '--install-scripts', '$base/lib/encoder_reader', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/mehul/motor_test/src/encoder_reader', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mehul', 'SSH_CLIENT': '192.168.0.2 52340 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/mehul', 'OLDPWD': '/home/mehul', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/mehul/motor_test/src/install:/home/mehul/lidar_test/src/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'mehul', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/mehul/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/mehul/lidar_test/src/install/sllidar_ros2:/home/mehul/motor_test/src/install/encoder_reader:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/mehul/motor_test/src/build/encoder_reader', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.2 52340 192.168.0.4 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mehul/motor_test/src/build/encoder_reader/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mehul/motor_test/src/install/encoder_reader/lib/python3.8/site-packages:/home/mehul/motor_test/src/install/encoder_reader/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/mehul/lidar_test/src/install/sllidar_ros2'}, 'shell': False}
+[2.620785] (-) TimerEvent: {}
+[2.725822] (-) TimerEvent: {}
+[2.826565] (-) TimerEvent: {}
+[2.927228] (-) TimerEvent: {}
+[3.027914] (-) TimerEvent: {}
+[3.128609] (-) TimerEvent: {}
+[3.229231] (-) TimerEvent: {}
+[3.329843] (-) TimerEvent: {}
+[3.430515] (-) TimerEvent: {}
+[3.490940] (encoder_reader) StdoutLine: {'line': b'running egg_info\n'}
+[3.494152] (encoder_reader) StdoutLine: {'line': b'writing ../build/encoder_reader/encoder_reader.egg-info/PKG-INFO\n'}
+[3.495205] (encoder_reader) StdoutLine: {'line': b'writing dependency_links to ../build/encoder_reader/encoder_reader.egg-info/dependency_links.txt\n'}
+[3.496185] (encoder_reader) StdoutLine: {'line': b'writing entry points to ../build/encoder_reader/encoder_reader.egg-info/entry_points.txt\n'}
+[3.497221] (encoder_reader) StdoutLine: {'line': b'writing requirements to ../build/encoder_reader/encoder_reader.egg-info/requires.txt\n'}
+[3.497798] (encoder_reader) StdoutLine: {'line': b'writing top-level names to ../build/encoder_reader/encoder_reader.egg-info/top_level.txt\n'}
+[3.530654] (-) TimerEvent: {}
+[3.621318] (encoder_reader) StdoutLine: {'line': b"reading manifest file '../build/encoder_reader/encoder_reader.egg-info/SOURCES.txt'\n"}
+[3.625082] (encoder_reader) StdoutLine: {'line': b"writing manifest file '../build/encoder_reader/encoder_reader.egg-info/SOURCES.txt'\n"}
+[3.625749] (encoder_reader) StdoutLine: {'line': b'running build\n'}
+[3.626358] (encoder_reader) StdoutLine: {'line': b'running build_py\n'}
+[3.627034] (encoder_reader) StdoutLine: {'line': b'copying encoder_reader/motor_interface.py -> /home/mehul/motor_test/src/build/encoder_reader/build/lib/encoder_reader\n'}
+[3.628968] (encoder_reader) StdoutLine: {'line': b'running install\n'}
+[3.630790] (-) TimerEvent: {}
+[3.631940] (encoder_reader) StdoutLine: {'line': b'running install_lib\n'}
+[3.635621] (encoder_reader) StdoutLine: {'line': b'copying /home/mehul/motor_test/src/build/encoder_reader/build/lib/encoder_reader/motor_interface.py -> /home/mehul/motor_test/src/install/encoder_reader/lib/python3.8/site-packages/encoder_reader\n'}
+[3.638559] (encoder_reader) StdoutLine: {'line': b'byte-compiling /home/mehul/motor_test/src/install/encoder_reader/lib/python3.8/site-packages/encoder_reader/motor_interface.py to motor_interface.cpython-38.pyc\n'}
+[3.645170] (encoder_reader) StdoutLine: {'line': b'running install_data\n'}
+[3.646385] (encoder_reader) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.652231] (encoder_reader) StdoutLine: {'line': b"removing '/home/mehul/motor_test/src/install/encoder_reader/lib/python3.8/site-packages/encoder_reader-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[3.653777] (encoder_reader) StdoutLine: {'line': b'Copying ../build/encoder_reader/encoder_reader.egg-info to /home/mehul/motor_test/src/install/encoder_reader/lib/python3.8/site-packages/encoder_reader-0.0.0-py3.8.egg-info\n'}
+[3.659226] (encoder_reader) StdoutLine: {'line': b'running install_scripts\n'}
+[3.720082] (encoder_reader) StdoutLine: {'line': b'Installing encoder_odom script to /home/mehul/motor_test/src/install/encoder_reader/lib/encoder_reader\n'}
+[3.720916] (encoder_reader) StdoutLine: {'line': b'Installing encoder_serial_node script to /home/mehul/motor_test/src/install/encoder_reader/lib/encoder_reader\n'}
+[3.721728] (encoder_reader) StdoutLine: {'line': b'Installing motor_interface script to /home/mehul/motor_test/src/install/encoder_reader/lib/encoder_reader\n'}
+[3.723507] (encoder_reader) StdoutLine: {'line': b"writing list of installed files to '/home/mehul/motor_test/src/build/encoder_reader/install.log'\n"}
+[3.731026] (-) TimerEvent: {}
+[3.817683] (encoder_reader) CommandEnded: {'returncode': 0}
+[3.831154] (-) TimerEvent: {}
+[3.864253] (encoder_reader) JobEnded: {'identifier': 'encoder_reader', 'rc': 0}
+[3.867404] (-) EventReactorShutdown: {}

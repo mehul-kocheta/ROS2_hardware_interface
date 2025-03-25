@@ -35,6 +35,14 @@ class ArduinoControl(Node):
             10
         )
 
+    def apply_dead_zone(self, speed):
+        """Adjust speed to avoid values between -0.2 and 0.2, except when zero."""
+        if speed == 0.0:
+            return 0.0
+        elif -0.2 < speed < 0.2:
+            return 0.2 if speed > 0 else -0.2
+        return speed
+
     def cmd_vel_callback(self, msg: Twist):
         # Extract linear and angular velocities
         linear_x = msg.linear.x  # Forward/backward speed (m/s)
@@ -45,9 +53,12 @@ class ArduinoControl(Node):
         right_wheel_speed = (linear_x + angular_z * self.wheel_base / 2) / (2 * math.pi * self.wheel_radius)
 
         # Clip speeds to the range [-1, 1] for testing
-        # You can modify this based on your motor's actual speed range
         left_wheel_speed = max(-1.0, min(1.0, left_wheel_speed))
         right_wheel_speed = max(-1.0, min(1.0, right_wheel_speed))
+
+        # Apply dead zone correction
+        left_wheel_speed = self.apply_dead_zone(left_wheel_speed)
+        right_wheel_speed = self.apply_dead_zone(right_wheel_speed)
 
         # Send the motor speeds as a serial message
         command = f"{left_wheel_speed:.2f},{right_wheel_speed:.2f}\n"

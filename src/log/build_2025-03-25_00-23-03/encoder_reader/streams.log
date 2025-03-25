@@ -1,0 +1,24 @@
+[2.567s] Invoking command in '/home/mehul/motor_test/src/encoder_reader': PYTHONPATH=/home/mehul/motor_test/src/build/encoder_reader/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mehul/motor_test/src/install/encoder_reader/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/encoder_reader build --build-base /home/mehul/motor_test/src/build/encoder_reader/build install --record /home/mehul/motor_test/src/build/encoder_reader/install.log --install-scripts $base/lib/encoder_reader --single-version-externally-managed install_data
+[3.461s] running egg_info
+[3.464s] writing ../build/encoder_reader/encoder_reader.egg-info/PKG-INFO
+[3.465s] writing dependency_links to ../build/encoder_reader/encoder_reader.egg-info/dependency_links.txt
+[3.466s] writing entry points to ../build/encoder_reader/encoder_reader.egg-info/entry_points.txt
+[3.466s] writing requirements to ../build/encoder_reader/encoder_reader.egg-info/requires.txt
+[3.467s] writing top-level names to ../build/encoder_reader/encoder_reader.egg-info/top_level.txt
+[3.594s] reading manifest file '../build/encoder_reader/encoder_reader.egg-info/SOURCES.txt'
+[3.599s] writing manifest file '../build/encoder_reader/encoder_reader.egg-info/SOURCES.txt'
+[3.600s] running build
+[3.601s] running build_py
+[3.602s] running install
+[3.605s] running install_lib
+[3.612s] running install_data
+[3.618s] copying launch/encoder_system.launch.py -> /home/mehul/motor_test/src/install/encoder_reader/share/encoder_reader/launch
+[3.619s] running install_egg_info
+[3.622s] removing '/home/mehul/motor_test/src/install/encoder_reader/lib/python3.8/site-packages/encoder_reader-0.0.0-py3.8.egg-info' (and everything under it)
+[3.623s] Copying ../build/encoder_reader/encoder_reader.egg-info to /home/mehul/motor_test/src/install/encoder_reader/lib/python3.8/site-packages/encoder_reader-0.0.0-py3.8.egg-info
+[3.628s] running install_scripts
+[3.689s] Installing encoder_odom script to /home/mehul/motor_test/src/install/encoder_reader/lib/encoder_reader
+[3.690s] Installing encoder_serial_node script to /home/mehul/motor_test/src/install/encoder_reader/lib/encoder_reader
+[3.691s] Installing motor_interface script to /home/mehul/motor_test/src/install/encoder_reader/lib/encoder_reader
+[3.693s] writing list of installed files to '/home/mehul/motor_test/src/build/encoder_reader/install.log'
+[3.784s] Invoked command in '/home/mehul/motor_test/src/encoder_reader' returned '0': PYTHONPATH=/home/mehul/motor_test/src/build/encoder_reader/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mehul/motor_test/src/install/encoder_reader/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/encoder_reader build --build-base /home/mehul/motor_test/src/build/encoder_reader/build install --record /home/mehul/motor_test/src/build/encoder_reader/install.log --install-scripts $base/lib/encoder_reader --single-version-externally-managed install_data
